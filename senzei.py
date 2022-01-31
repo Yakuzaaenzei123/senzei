@@ -170,7 +170,7 @@ def tokenz():
 	except (KeyError, IOError):
 		os.system('clear')
 		Me()
-
+                 Xenzi('\x1b[1;97m[\x1b[1;92m!\x1b[1;97m] Di Sarankan Menggunakan Akun \x1b[1;92mTumbal\x1b[1;90m/\x1b[1;92mBaru')
 		token = raw_input('\n\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] Token \x1b[1;91m:\x1b[1;92m ')
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
