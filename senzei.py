@@ -216,6 +216,8 @@ def menu():
         
         
 Me()
+print("\x1b[0;97m[\x1b[0;92m•\x1b[0;97m] Username \x1b[0;91m: "+H+nama)
+
     print("\x1b[0;97m[\x1b[0;92m•\x1b[0;97m] Username \x1b[0;91m: "+H+nama)
     print("\x1b[0;97m[\x1b[0;92m•\x1b[0;97m] Server   \x1b[0;91m: "+A+Server)
     print("\x1b[0;97m[\x1b[0;92m•\x1b[0;97m] Status   \x1b[0;91m: "+H+status)
